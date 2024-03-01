@@ -82,24 +82,6 @@ if(!isset($_SESSION["username"]))
 					<span class="fa fa-user-o"></span> My Profile
 				</div>
 				
-				<a href="userDashboardBookings.php">
-				<div class="col-sm-12 menuContainer bottomBorder">
-					<span class="fa fa-copy"></span> My Bookings
-				</div>
-				</a>
-				
-				<a href="userDashboardETickets.php">
-				<div class="col-sm-12 menuContainer bottomBorder">
-					<span class="fa fa-clone"></span> My E-Tickets
-				</div>
-				</a>
-				
-				<a href="userDashboardCancelTicket.php">
-				<div class="col-sm-12 menuContainer bottomBorder">
-					<span class="fa fa-close"></span> Cancel Ticket
-				</div>
-				</a>
-				
 				<a href="userDashboardAccountSettings.php">
 				<div class="col-sm-12 menuContainer">
 					<span class="fa fa-bar-chart"></span> Account Stats

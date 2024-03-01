@@ -13,6 +13,7 @@
 		<div class="headerMenu">
 			
 			<ul>
+			    <a href="map.php"><li>Map</li></a>
 				<a href="index.php"><li>Home</li></a>
 				<a href="aboutUs.php"><li>About Us</li></a>
 				<a href="login.php"><li>Login</li></a>

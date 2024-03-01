@@ -2299,10 +2299,19 @@ INSERT INTO `users` (`UserID`, `FullName`, `EMail`, `Phone`, `Username`, `Passwo
 (16, 'holika', 'holika@kar.ki', '00000', 'holika', '$2a$08$E47nQqO7IyzVAXgzgUsn8uycjjUQFMNqg4xnQccJJdD5QIqOnBsIe', 'a', 'b', 'shillong', 'mg', 'Wednesday 25th of October 2017 at 09:50:46 AM'),
 (17, '', '', '', '', '$2a$08$PwXWUru6s7yGkik7aS3P.OYgnVc2dC.aS9AbtjAjjQLRpfWELD1pe', '', '', '', '', 'Monday 30th of October 2017 at 12:56:20 PM');
 
---
--- Indexes for dumped tables
---
+CREATE TABLE reviews (
+  id int PRIMARY KEY AUTO_INCREMENT,
+  item_id int,
+  user_id varchar,
+  rating varchar,
+  comment varchar
+);
 
+INSERT INTO reviews values (
+  (1, 'flowers', 'abc123', 'good', 'satisfied'),
+  (2, 'chocolate', 'abc123', 'good', 'satisfied'),
+  (3, 'perfume', 'abc123', 'good', 'satisfied');
+)
 --
 -- Indexes for table `bus`
 --
@@ -2427,6 +2436,9 @@ ALTER TABLE `trainbookings`
 ALTER TABLE `users`
   MODIFY `UserID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
+
+ALTER TABLE 'revies'
+  MODIFY 'rating' int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

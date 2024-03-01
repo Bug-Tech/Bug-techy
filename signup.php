@@ -71,9 +71,6 @@
 					<label for="email">E-mail:</label>
 					<input type="email" class="input" name="email" placeholder="Enter your email here" required>
 					
-					<label for="phone">Phone:</label>
-					<input type="text" class="input" name="phone" placeholder="Enter your phone no. here" id="phone" required>
-					
 					<label for="username">Username:</label>
 					<input type="text" class="input" name="username" placeholder="Enter a username here" id="username" required>
 					
@@ -84,12 +81,6 @@
 					
 					<label for="repeatPassword">Repeat Password:</label>
 					<input type="password" class="input" name="repeatPassword" placeholder="Enter the same password again" id="repeatPassword" required>
-				
-					<label for="city">City:</label>
-					<input type="text" class="input" name="city" placeholder="Enter the name of your city here" id="city" required>
-					
-					<label for="addressLine2">State:</label>
-					<input type="text" class="input" name="state" placeholder="Enter the name of your state here" id="state" required>
 					
 					<div class="col-sm-12 text-center">
 					<input type="submit" class="button" name="signup" value="Sign Up" id="signupButton">

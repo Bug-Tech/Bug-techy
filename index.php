@@ -92,62 +92,7 @@
 			
 
 
-			<!---icons---->
-			<div class="col-xs-12 popularDestinationsContainer">
-				
-				<div class="col-xs-12 destinationHolder">
-				
-					<div class="col-xs-12 destinationQuote">
-						What would you like to book today?
-					</div>
-					
-					<div class="col-xs-12 containerGrids hvr-buzz-out">
-					
-						<a href="hotels.php" style="color: black;">
-						
-						<div class="col-xs-12 icons text-center">
-							<img src="images/icons/hotel.png" alt="hotels" class="iconsDim text-center"/>
-						</div>
-						
-						<div class="col-xs-12 heading">
-							Hotels
-						</div>
-						
-						</a>
-						
-					</div>
-					
-					<div class="col-xs-12 containerGrids hvr-buzz-out">
-						<a href="trains.php" style="color: black;">
-							
-							<div class="col-xs-12 icons text-center">
-								<img src="images/icons/train.png" alt="trains" class="iconsDim text-center"/>
-							</div>
-							
-							<div class="col-xs-12 heading">
-								Trains
-							</div>
-							
-						</a>
-							
-					</div>
-
-					<div class="col-xs-12 containerGrids hvr-buzz-out">
-						<a href="resto.php" style="color: black;">
-							
-							<div class="col-xs-12 icons text-center">
-								<img src="images/icons/flight.png" alt="Resto" class="iconsDim text-center"/>
-							</div>
-							
-							<div class="col-xs-12 heading">
-								Resto
-							</div>
-							
-						</a>
-							
-					</div>
 			
-				</div>
 
 				<!--popular destinations-->
 			
@@ -164,84 +109,803 @@
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/a.jpg" alt="popularDestination1" class="picDim text-center"/>
+						    <a href="map2.php">
+							<img src="images/popularDestinations/a.jpg" alt="Click me" class="picDim text-center"/>
+				            </a>
 						</div>
+						
 						
 						<div class="col-xs-12 heading">
 							Pantal bridge
+							<p>
+							is an iconic Dagupan man-made structure located in the legendary Pantal River. 
+							</p>
+							<!DOCTYPE html>
+
+							<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smiley Face Rating Pop-up</title>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smiley-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.smiley-container .smiley {
+    font-size: 36px;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust spacing between smileys */
+}
+</style>
+</head>
+<body>
+
+<button id="rateButton" class="rateButton">Rate Places</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Rate Product</h2>
+        <div class="smiley-container">
+            <div class="smiley" onclick="submitRating(5)">😄</div>
+            <div class="smiley" onclick="submitRating(4)">😊</div>
+            <div class="smiley" onclick="submitRating(3)">😐</div>
+            <div class="smiley" onclick="submitRating(2)">😕</div>
+            <div class="smiley" onclick="submitRating(1)">😞</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function submitRating(rating) {
+    closePopup();
+    // Handle the rating submission here, e.g., send it to the server
+    alert("You rated with " + rating + " stars.");
+}
+
+document.getElementById("rateButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
+
+							
 						</div>
+						
 						
 					</div>
 					
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/b.jpg" alt="popularDestination2" class="picDim text-center"/>
+						    <a href="map4.php">
+							<img src="images/popularDestinations/b.jpg" alt="Click me" class="picDim text-center"/>
+				            </a>
+						</div>
+						    
+						<div class="col-xs-12 heading">
+							korean palace
+							<p>
+							Experience high quality of unlimeted Korean bbq buffet in Dagupan.
+							<p>
+							<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smiley Face Rating Pop-up</title>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smiley-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.smiley-container .smiley {
+    font-size: 36px;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust spacing between smileys */
+}
+</style>
+</head>
+<body>
+
+<button id="rateButton" class="rateButton">Rate Places</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Rate Product</h2>
+        <div class="smiley-container">
+            <div class="smiley" onclick="submitRating(5)">😄</div>
+            <div class="smiley" onclick="submitRating(4)">😊</div>
+            <div class="smiley" onclick="submitRating(3)">😐</div>
+            <div class="smiley" onclick="submitRating(2)">😕</div>
+            <div class="smiley" onclick="submitRating(1)">😞</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function submitRating(rating) {
+    closePopup();
+    // Handle the rating submission here, e.g., send it to the server
+    alert("You rated with " + rating + " stars.");
+}
+
+document.getElementById("rateButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
+								
+						</div>
+						
+						
+						
+					</div>
+					
+					<div class="col-xs-12 containerGrids hvr-buzz-out">
+						
+						<div class="col-xs-12 pics text-center">
+							<a href="map5.php">
+							<img src="images/popularDestinations/c.jpg" alt="Click me" class="picDim text-center"/>
+				            </a>
 						</div>
 						
 						<div class="col-xs-12 heading">
-							korean palace
+							Tondaligan Blue Beach
+							
+							<p>the Tondaligan Beach in Dagupan City is one of the most visited places in the area.</p>
+							<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smiley Face Rating Pop-up</title>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smiley-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.smiley-container .smiley {
+    font-size: 36px;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust spacing between smileys */
+}
+</style>
+</head>
+<body>
+
+<button id="rateButton" class="rateButton">Rate Places</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Rate Product</h2>
+        <div class="smiley-container">
+            <div class="smiley" onclick="submitRating(5)">😄</div>
+            <div class="smiley" onclick="submitRating(4)">😊</div>
+            <div class="smiley" onclick="submitRating(3)">😐</div>
+            <div class="smiley" onclick="submitRating(2)">😕</div>
+            <div class="smiley" onclick="submitRating(1)">😞</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function submitRating(rating) {
+    closePopup();
+    // Handle the rating submission here, e.g., send it to the server
+    alert("You rated with " + rating + " stars.");
+}
+
+document.getElementById("rateButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
 						</div>
 						
 					</div>
-					
+
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/c.jpg" alt="popularDestination3" class="picDim text-center"/>
+						    <a href="map6.php">
+							<img src="images/popularDestinations/d.jpg" alt="Click me" class="picDim text-center"/>
+				            </a>
 						</div>
 						
 						<div class="col-xs-12 heading">
 							Madkart
+							<p>
+							MadKart in Pangasinan is a new indoor electric karting track with a 500+ meter track, safety features.
+							</p>
+							<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smiley Face Rating Pop-up</title>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smiley-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.smiley-container .smiley {
+    font-size: 36px;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust spacing between smileys */
+}
+</style>
+</head>
+<body>
+
+<button id="rateButton" class="rateButton">Rate Places</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Rate Product</h2>
+        <div class="smiley-container">
+            <div class="smiley" onclick="submitRating(5)">😄</div>
+            <div class="smiley" onclick="submitRating(4)">😊</div>
+            <div class="smiley" onclick="submitRating(3)">😐</div>
+            <div class="smiley" onclick="submitRating(2)">😕</div>
+            <div class="smiley" onclick="submitRating(1)">😞</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function submitRating(rating) {
+    closePopup();
+    // Handle the rating submission here, e.g., send it to the server
+    alert("You rated with " + rating + " stars.");
+}
+
+document.getElementById("rateButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
 						</div>
+						
 						
 					</div>
 
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/d.jpg" alt="popularDestination1" class="picDim text-center"/>
-						</div>
-						
-						<div class="col-xs-12 heading">
-							CSI stadia
-						</div>
-						
-					</div>
-
-					<div class="col-xs-12 containerGrids hvr-buzz-out">
-						
-						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/e.jpg" alt="popularDestination1" class="picDim text-center"/>
+						    <a href="map7.php">
+							<img src="images/popularDestinations/e.jpg" alt="Click me" class="picDim text-center"/>
+				            </a>
 						</div>
 						
 						<div class="col-xs-12 heading">
 					       Assada Square
+						 
+						   <p>
+						   the newest commercial hub at the heart of dagupan city.
+						   </p>
+						   <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smiley Face Rating Pop-up</title>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smiley-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.smiley-container .smiley {
+    font-size: 36px;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust spacing between smileys */
+}
+</style>
+</head>
+<body>
+
+<button id="rateButton" class="rateButton">Rate Places</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Rate Product</h2>
+        <div class="smiley-container">
+            <div class="smiley" onclick="submitRating(5)">😄</div>
+            <div class="smiley" onclick="submitRating(4)">😊</div>
+            <div class="smiley" onclick="submitRating(3)">😐</div>
+            <div class="smiley" onclick="submitRating(2)">😕</div>
+            <div class="smiley" onclick="submitRating(1)">😞</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function submitRating(rating) {
+    closePopup();
+    // Handle the rating submission here, e.g., send it to the server
+    alert("You rated with " + rating + " stars.");
+}
+
+document.getElementById("rateButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
 						</div>
+						
 						
 					</div>
 
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/f.jpg" alt="popularDestination1" class="picDim text-center"/>
+						    <a href="map8.php">
+							<img src="images/popularDestinations/f.jpg" alt="Click me" class="picDim text-center"/>
+				            </a>
 						</div>
 						
 						<div class="col-xs-12 heading">
 						    CSI stadia
+							
+							<p>
+							is North Luzon's premier sports and events venue
+							</p>
+							<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smiley Face Rating Pop-up</title>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smiley-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.smiley-container .smiley {
+    font-size: 36px;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust spacing between smileys */
+}
+</style>
+</head>
+<body>
+
+<button id="rateButton" class="rateButton">Rate Places</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Rate Product</h2>
+        <div class="smiley-container">
+            <div class="smiley" onclick="submitRating(5)">😄</div>
+            <div class="smiley" onclick="submitRating(4)">😊</div>
+            <div class="smiley" onclick="submitRating(3)">😐</div>
+            <div class="smiley" onclick="submitRating(2)">😕</div>
+            <div class="smiley" onclick="submitRating(1)">😞</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function submitRating(rating) {
+    closePopup();
+    // Handle the rating submission here, e.g., send it to the server
+    alert("You rated with " + rating + " stars.");
+}
+
+document.getElementById("rateButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
 						</div>
-						
+					
 					</div>
 
 					<div class="col-xs-12 containerGrids hvr-buzz-out">
 						
 						<div class="col-xs-12 pics text-center">
-							<img src="images/popularDestinations/g.jpg" alt="popularDestination1" class="picDim text-center"/>
+						    <a href="revCenter.php">
+							<img src="images/popularDestinations/g.jpg" alt="Click me" class="picDim text-center"/>
+				            </a>
 						</div>
 						
 						<div class="col-xs-12 heading">
-						    sm center
+							sm center
+							</p>
+						    it is a shopping mall in dagupan city
+							<P>
+							<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smiley Face Rating Pop-up</title>
+<style>
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.smiley-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.smiley-container .smiley {
+    font-size: 36px;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust spacing between smileys */
+}
+</style>
+</head>
+<body>
+
+<button id="rateButton" class="rateButton">Rate Places</button>
+
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <span class="close" onclick="closePopup()">&times;</span>
+        <h2>Rate Product</h2>
+        <div class="smiley-container">
+            <div class="smiley" onclick="submitRating(5)">😄</div>
+            <div class="smiley" onclick="submitRating(4)">😊</div>
+            <div class="smiley" onclick="submitRating(3)">😐</div>
+            <div class="smiley" onclick="submitRating(2)">😕</div>
+            <div class="smiley" onclick="submitRating(1)">😞</div>
+        </div>
+    </div>
+</div>
+
+<script>
+function openPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+}
+
+function submitRating(rating) {
+    closePopup();
+    // Handle the rating submission here, e.g., send it to the server
+    alert("You rated with " + rating + " stars.");
+}
+
+document.getElementById("rateButton").addEventListener("click", openPopup);
+</script>
+
+</body>
+</html>
+							
+							
+							
+							</div>
 						</div>
+						
+						
 						
 					</div>
 
